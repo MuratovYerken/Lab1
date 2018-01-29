@@ -8,6 +8,12 @@ namespace Prime_numbers
 {
     class Program
     {
+        /// <summary>
+        /// function that defines whether it is prime or not
+        /// </summary>
+        /// <param name="a">necessary number</param>
+        /// <returns>a boolean value </returns>
+        /// <exception cref="1 is not a prime number" ></exception>
         static bool IsPrime(int a)
         {
            if (a == 1)
